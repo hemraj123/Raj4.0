@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".second" >
+   <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tcode"
+	    android:hint="Enter The ID"
+       />
+   <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tname"
+	    android:hint="Enter The Name"
+       />
+   <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/taddress"
+	    android:hint="Enter The address"
+       />
+   <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tspeciality"
+	    android:hint="Enter The speciality"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:background="#147D03"
+       android:onClick="saveData"
+       android:text="Save"
+       android:textStyle="bold|italic" />
+
+</LinearLayout>

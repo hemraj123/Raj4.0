@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+F:\Hemraj\5 th semester\SEMINAR ON SUMMER TRAINING\Myserver\.metadata\.plugins\org.eclipse.jdt.core
+2062559989.index
